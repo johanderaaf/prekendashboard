@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mijn dashboards | Boskoop</title>
+<style>
+:root{color-scheme:light;--bg:#f3f6fa;--ink:#152638;--muted:#617286;--line:#dbe3ed;--accent:#176c59}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,'Segoe UI',sans-serif}
+header{padding:18px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+h1{font-size:clamp(21px,2.2vw,29px);margin:0;letter-spacing:-.6px}header p{margin:5px 0 0;color:var(--muted);font-size:13px}
+main{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:0 16px 16px;min-height:calc(100vh - 94px)}
+section{min-width:0;background:white;border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 4px 18px #17304a0b}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:11px 14px;border-bottom:1px solid var(--line)}
+h2{font-size:16px;margin:0}a{font-size:13px;text-decoration:none;color:var(--accent);font-weight:600}a:hover{text-decoration:underline}
+iframe{width:100%;flex:1;min-height:720px;border:0;background:white}
+@media(max-width:950px){main{grid-template-columns:1fr}iframe{min-height:750px}}
+</style>
+</head>
+<body>
+<header><div><h1>Mijn dashboards</h1><p>Boskoop · Psalmen en Bijbelgedeelten</p></div></header>
+<main>
+<section><div class="bar"><h2>Psalmendashboard</h2><a href="https://johanderaaf.github.io/psalmen-dashboard/" target="_blank" rel="noopener noreferrer">Open volledig ↗</a></div><iframe title="Psalmendashboard" src="https://johanderaaf.github.io/psalmen-dashboard/" loading="eager"></iframe></section>
+<section><div class="bar"><h2>Bijbelgedeeltendashboard</h2><a href="https://johanderaaf.github.io/bijbelgedeelten-dashboard/" target="_blank" rel="noopener noreferrer">Open volledig ↗</a></div><iframe title="Bijbelgedeeltendashboard" src="https://johanderaaf.github.io/bijbelgedeelten-dashboard/" loading="eager"></iframe></section>
+</main>
+</body>
+</html>
